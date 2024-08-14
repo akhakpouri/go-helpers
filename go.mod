@@ -1,3 +1,3 @@
-module akhakpouri/helpers
+module github.com/akhakpouri/go-helpers
 
 go 1.22.6
