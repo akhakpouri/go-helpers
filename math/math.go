@@ -33,3 +33,10 @@ func GetRandNum() int {
 	len, min := len(numbers), 1
 	return rand.IntN(len-min) + min
 }
+
+func GetRandNumInRange(min, max int) int {
+	if max <= min {
+		panic("max should be bigger than min")
+	}
+	return rand.IntN(max-min) + min
+}
